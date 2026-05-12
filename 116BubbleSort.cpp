@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-//Repeatedly swap two adjucent elements if in wrong order
+//Repeatedly swap two adjacent elements if in wrong order
 
 void bubbleSort(vector<int> &v){
     int n = v.size();
