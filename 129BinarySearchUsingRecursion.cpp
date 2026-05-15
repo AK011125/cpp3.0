@@ -39,3 +39,8 @@ int main(){
 
     return 0;
 }
+//here space and time both complexity are O(logn)
+
+// sometimes with concentraints it shows overflow
+// so we modify it as
+// mid = a + (b-a)/2
