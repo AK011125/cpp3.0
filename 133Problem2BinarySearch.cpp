@@ -39,3 +39,5 @@ int main(){
 
     return 0;
 }
+//time complexity is O(log n)
+//space complexity is O(1)
