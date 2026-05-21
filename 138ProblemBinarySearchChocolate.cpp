@@ -62,4 +62,4 @@ int main(){
     return 0;
 }
 
-// time complexithy is O(mlog(n))n
+// time complexithy is O(mlog(n))
