@@ -5,7 +5,7 @@
 using namespace std;
 
 int peakInMount(vector<int> &v){
-    int lo = 1, hi = v.size()-1;
+    int lo = 0, hi = v.size()-1;
 
     int ans = -1;
     while(lo<=hi){
