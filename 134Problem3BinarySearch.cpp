@@ -51,3 +51,5 @@ int main(){
 }
 //time complexity is O(log n)
 //space complexity is O(1)
+
+// if 1st and last element are euql so delete both then do this
