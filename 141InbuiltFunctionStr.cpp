@@ -24,5 +24,21 @@ int main(){
     str.push_back(ch);
     cout<<str<<endl;
 
+    int a = str.size(); // same as str.length()
+    cout<<a<<endl; // O(1)
+
+    char cha[30] = "abcdefghijklmnopqrstuvwxyz";
+    cout<<strlen(cha)<<endl; // O(n)
+
+    // to_string()  ->>  to convert int to string
+    int num = 4;
+    cout<<to_string(num)<<endl;
+
+    int n = 432;
+    string s = to_string(n);
+    s += "1";
+    cout<<s<<endl;
+    cout<<s[1]<<endl;
+
     return 0;
 }
