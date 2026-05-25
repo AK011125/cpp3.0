@@ -30,3 +30,6 @@ int main(){
 
     return 0;
 }
+
+// O(length of string) time
+// O(26) space
